@@ -48,7 +48,7 @@
 
 #offerings{
 	width: 100%;	
-	height: 100vh;
+	/*height: 100vh;*/ /*never set height in case of content based elements*/
 	position: relative;
 }
 
@@ -70,7 +70,7 @@
 	padding-bottom: 5px;
 }
 
-#offerings img{
+#offerings img{	
 
 }
 
