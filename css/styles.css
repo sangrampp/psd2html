@@ -1,0 +1,118 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default{
+	background: transparent;
+	border:transparent;
+}
+
+#landing{
+	position: relative;
+}
+
+.carousel #img1{
+	min-width: 100%;	
+	height: 100vh;
+	background: url('../images/splash.png');
+	background-size: cover;
+}
+
+.carousel #img2{
+	min-width: 100%;	
+	height: 100vh;
+	background: url('../images/img2.jpg');
+	background-size: cover;
+}
+
+.carousel #img3{
+	min-width: 100%;	
+	height: 100vh;
+	background: url('../images/img3.jpg');
+	background-size: cover;
+}
+
+.carousel #img4{
+	min-width: 100%;	
+	height: 100vh;
+	background: url('../images/img4.jpg');
+	background-size: cover;
+}
+
+.carousel #img5{
+	min-width: 100%;	
+	height: 100vh;
+	background: url('../images/img5.jpg');
+	background-size: cover;
+}
+
+#offerings{
+	width: 100%;	
+	height: 100vh;
+	position: relative;
+}
+
+#offerings h1{
+	border-top: 20px solid grey;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#offerings h3{
+	text-align: center;
+	margin: 0;
+	padding-bottom: 50px;
+}
+
+#offerings .title{
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+#offerings img{
+
+}
+
+.info{
+	margin: 20px 0;
+}
+
+#about{
+	width: 100%;	
+	height: 100vh;
+	position: relative;
+}
+
+#about #abt{
+	width: 100%;
+	height: 100vh;
+	background: url('../images/abt.png');
+	background-size: cover;
+}
+
+#about #abt-write{
+	width: 100%;
+	height: 100vh;
+	background-color: orange;	
+}
+
+#about #abt-write .abt-content{
+	width: 70%;
+	margin-right: auto;
+	margin-left: 10%;
+	padding-top: 20%;
+}
+
+.abt-content .btn-default{
+	margin-top: 100px;
+}
+
+#about .col-abt {
+	padding: 0;
+}
+
+#abt-write h2{
+	margin: 0;
+	margin-bottom: 20px;
+}
