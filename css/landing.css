@@ -1,0 +1,32 @@
+#landing {
+  position: relative; }
+
+.carousel #img1 {
+  background: url("../images/splash.png");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
+
+.carousel #img2 {
+  background: url("../images/img2.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
+
+.carousel #img3 {
+  background: url("../images/img3.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
+
+.carousel #img4 {
+  background: url("../images/img4.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
+
+.carousel #img5 {
+  background: url("../images/img5.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }

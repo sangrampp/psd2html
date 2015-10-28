@@ -1,0 +1,43 @@
+#about{
+	width: 100%;	
+	height: 100vh;
+	position: relative;
+
+	.row{
+	margin-right: 0;
+	margin-left: 0;
+	}
+
+	#abt{
+	width: 100%;
+	height: 100vh;
+	background: url('../images/abt.png');
+	background-size: cover;
+	}
+
+	#abt-write{
+	width: 100%;
+	height: 100vh;
+	background-color: orange;	
+	}
+
+	#abt-write .abt-content{
+	width: 70%;
+	margin-right: auto;
+	margin-left: 10%;
+	padding-top: 20%;
+	}
+
+	.abt-content .btn-default{
+	margin-top: 100px;
+	}
+
+	.col-abt {
+	padding: 0;
+	}
+
+	#abt-write h2{
+	margin: 0;
+	margin-bottom: 20px;
+	}
+}

@@ -1,267 +1,192 @@
 .navbar {
-	margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
-.navbar-default{
-	background: transparent;
-	border:transparent;
-}
+.navbar-default {
+  background: transparent;
+  border: transparent; }
 
-#landing{
-	position: relative;
-}
+#landing {
+  position: relative; }
 
-.carousel #img1{
-	min-width: 100%;	
-	height: 100vh;
-	background: url('../images/splash.png');
-	background-size: cover;
-}
+.carousel #img1 {
+  background: url("../images/splash.png");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
 
-.carousel #img2{
-	min-width: 100%;	
-	height: 100vh;
-	background: url('../images/img2.jpg');
-	background-size: cover;
-}
+.carousel #img2 {
+  background: url("../images/img2.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
 
-.carousel #img3{
-	min-width: 100%;	
-	height: 100vh;
-	background: url('../images/img3.jpg');
-	background-size: cover;
-}
+.carousel #img3 {
+  background: url("../images/img3.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
 
-.carousel #img4{
-	min-width: 100%;	
-	height: 100vh;
-	background: url('../images/img4.jpg');
-	background-size: cover;
-}
+.carousel #img4 {
+  background: url("../images/img4.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
 
-.carousel #img5{
-	min-width: 100%;	
-	height: 100vh;
-	background: url('../images/img5.jpg');
-	background-size: cover;
-}
+.carousel #img5 {
+  background: url("../images/img5.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover; }
 
-#offerings{
-	width: 100%;	
-	/*height: 100vh;*/ /*never set height in case of content based elements*/
-	position: relative;
-}
+#offerings {
+  width: 100%;
+  /*height: 100vh;*/
+  /*never set height in case of content based elements*/
+  position: relative; }
+  #offerings h1 {
+    border-top: 20px solid grey;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px; }
+  #offerings h3 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px; }
+  #offerings .title {
+    text-align: left;
+    padding-bottom: 5px; }
+  #offerings .info {
+    margin: 20px 0; }
 
-#offerings h1{
-	border-top: 20px solid grey;
-	margin: 0;
-	text-align: center;
-	padding-top: 30px;
-}
+#about {
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+  #about .row {
+    margin-right: 0;
+    margin-left: 0; }
+  #about #abt {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/abt.png");
+    background-size: cover; }
+  #about #abt-write {
+    width: 100%;
+    height: 100vh;
+    background-color: orange; }
+  #about #abt-write .abt-content {
+    width: 70%;
+    margin-right: auto;
+    margin-left: 10%;
+    padding-top: 20%; }
+  #about .abt-content .btn-default {
+    margin-top: 100px; }
+  #about .col-abt {
+    padding: 0; }
+  #about #abt-write h2 {
+    margin: 0;
+    margin-bottom: 20px; }
 
-#offerings h3{
-	text-align: center;
-	margin: 0;
-	padding-bottom: 50px;
-}
+#portfolio {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px; }
+  #portfolio .container-fluid {
+    padding-left: 0; }
+  #portfolio p {
+    padding: 0 25%; }
+  #portfolio .btn-group {
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  #portfolio #port_img1 {
+    background: url("../images/portfolio1.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio #port_img2 {
+    background: url("../images/portfolio_img2.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio #port_img3 {
+    background: url("../images/portfolio_img3.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio #port_img4 {
+    background: url("../images/portfolio_img4.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio #port_img5 {
+    background: url("../images/portfolio_img5.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio #port_img6 {
+    background: url("../images/portfolio_img6.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio #port_img7 {
+    background: url("../images/portfolio_img7.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio #port_img8 {
+    background: url("../images/portfolio_img8.png");
+    width: 25vw;
+    height: 18vw;
+    background-size: cover; }
+  #portfolio .img-container {
+    padding: 0; }
 
-#offerings .title{
-	text-align: left;
-	padding-bottom: 5px;
-}
-
-#offerings img{	
-
-}
-
-.info{
-	margin: 20px 0;
-}
-
-#about{
-	width: 100%;	
-	height: 100vh;
-	position: relative;
-}
-
-/*below is done to remove the -15px default margin added by bootstrap*/
-#about .row{
-	margin-right: 0;
-	margin-left: 0;
-}
-
-#about #abt{
-	width: 100%;
-	height: 100vh;
-	background: url('../images/abt.png');
-	background-size: cover;
-}
-
-#about #abt-write{
-	width: 100%;
-	height: 100vh;
-	background-color: orange;	
-}
-
-#about #abt-write .abt-content{
-	width: 70%;
-	margin-right: auto;
-	margin-left: 10%;
-	padding-top: 20%;
-}
-
-.abt-content .btn-default{
-	margin-top: 100px;
-}
-
-#about .col-abt {
-	padding: 0;
-}
-
-#abt-write h2{
-	margin: 0;
-	margin-bottom: 20px;
-}
-
-#portfolio{
-	width: 100%;	
-	text-align: center;
-	padding-top: 50px;
-}
-
-/*below is done to remove the -15px default margin added by bootstrap*/
-#portfolio .container-fluid{
-	padding-left: 0;
-}
-
-#portfolio p{
-	padding: 0 25%;
-}
-
-#portfolio .btn-group{
-	padding-top: 50px;
-	padding-bottom: 30px;
-}
-
-#portfolio #port_img1{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio1.png');
-	background-size: cover;	
-}
-
-#portfolio #port_img2{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio_img2.png');
-	background-size: cover;	
-}
-
-#portfolio #port_img3{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio_img3.png');
-	background-size: cover;	
-}
-
-#portfolio #port_img4{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio_img4.png');
-	background-size: cover;	
-}
-
-#portfolio #port_img5{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio_img5.png');
-	background-size: cover;	
-}
-
-#portfolio #port_img6{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio_img6.png');
-	background-size: cover;	
-}
-
-#portfolio #port_img7{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio_img7.png');
-	background-size: cover;	
-}
-
-#portfolio #port_img8{
-	width: 25vw;
-	height: 18vw;
-	background: url('../images/portfolio_img8.png');
-	background-size: cover;	
-}
-
-#portfolio .img-container{
-	padding: 0;
-}
-
-
-/*comment thought clouds*/
 .triangle-isosceles {
-  position:relative;
-  padding:15px;
-  margin:1em 0 0.75em;
-  color:#000;
-  background:#c8c8c8; /* default background for browsers without gradient support */
-  /* css3 */
-  /*background:-webkit-gradient(linear, 0 0, 0 100%, from(white), to(grey));
-  background:-moz-linear-gradient(white, grey);
-  background:-o-linear-gradient(white, grey);
-  background:linear-gradient(white, grey);  */ 
-}
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 0.75em;
+  color: #000;
+  background: #c8c8c8; }
 
 /* THE TRIANGLE
 ------------------------------------------------------------------------------------------------------------------------------- */
-
 /* creates triangle */
 .triangle-isosceles:after {
-  content:"";
-  position:absolute;
-  bottom:-15px; /* value = - border-top-width - border-bottom-width */
-  left:50px; /* controls horizontal position */
-  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
-  border-style:solid;
-  border-color:#c8c8c8 transparent;
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  /* value = - border-top-width - border-bottom-width */
+  left: 50px;
+  /* controls horizontal position */
+  border-width: 15px 15px 0;
+  /* vary these values to change the angle of the vertex */
+  border-style: solid;
+  border-color: #c8c8c8 transparent;
   /* reduce the damage in FF3.0 */
-  display:block;
-  width:0;
-}
-/*comment thought clouds*/
+  display: block;
+  width: 0; }
 
-#testimonials{	
-	text-align: center;
-	width: 100%;	
-	padding-top: 30px;
-	padding-bottom: 50px;
-}
+#testimonials {
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  position: relative; }
+  #testimonials .user-testimonial {
+    text-align: left; }
 
-.user-testimonial{
-	text-align: left;
-}
+#contact {
+  padding-top: 30px;
+  background-color: #273943;
+  color: white;
+  position: relative; }
 
-#contact{
-	padding-top: 30px;
-	background-color: #273943;
-	color: white;
-}
-
-footer{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: #172228;
-	color: white;
-}
-
-footer .cnt_images{
-	display: inline-block;
-	padding: 5px;
-	background-color: grey;
-}
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #172228;
+  color: white; }
+  footer .cnt_images {
+    display: inline-block;
+    padding: 5px;
+    background-color: grey; }

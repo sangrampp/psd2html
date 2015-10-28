@@ -1,0 +1,19 @@
+#offerings {
+  width: 100%;
+  /*height: 100vh;*/
+  /*never set height in case of content based elements*/
+  position: relative; }
+  #offerings h1 {
+    border-top: 20px solid grey;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px; }
+  #offerings h3 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px; }
+  #offerings .title {
+    text-align: left;
+    padding-bottom: 5px; }
+  #offerings .info {
+    margin: 20px 0; }
