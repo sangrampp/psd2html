@@ -1,8 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 body {
   position: relative; }
 
 .navbar {
   margin-bottom: 0; }
+  .navbar #business-name {
+    color: orange;
+    font-family: "Lobster", sans-serif;
+    font-size: 1.5em; }
 
 .navbar-default {
   background: transparent;
