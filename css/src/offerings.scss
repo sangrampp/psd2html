@@ -3,17 +3,22 @@
 	/*height: 100vh;*/ /*never set height in case of content based elements*/
 	position: relative;
 
+	.container{
+	padding-bottom: 20px;
+	}
+
 	h1{
-	border-top: 20px solid grey;
+	//border-top: 20px solid grey;
 	margin: 0;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 50px;
+	color: $blue-bg-color;
 	}
 
 	h3{
 	text-align: center;
 	margin: 0;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	}
 
 	.title{
