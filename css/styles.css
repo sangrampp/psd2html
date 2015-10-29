@@ -83,6 +83,8 @@ body {
     margin-left: 10%;
     padding-top: 20%; }
   #about .abt-content .btn-default {
+    border: 2px #E1A33C solid;
+    background-color: #E7AD49;
     margin-top: 100px; }
   #about .col-abt {
     padding: 0; }
