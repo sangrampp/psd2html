@@ -13,27 +13,27 @@
 .carousel {	
 
 	#img1{
-		background: url('../images/splash.jpg');
+		background: url('../images/landing/splash.jpg');
 		@include carousel-settings();
 	}
 
 	#img2{
-		background: url('../images/img2.jpg');
+		background: url('../images/landing/img2.jpg');
 		@include carousel-settings();
 	}
 
 	#img3{
-		background: url('../images/img3.jpg');
+		background: url('../images/landing/img3.jpg');
 		@include carousel-settings();
 	}
 
 	#img4{
-		background: url('../images/img4.jpg');
+		background: url('../images/landing/img4.jpg');
 		@include carousel-settings();
 	}
 
 	#img5{
-		background: url('../images/img5.jpg');
+		background: url('../images/landing/img5.jpg');
 		@include carousel-settings();
 	}
 }

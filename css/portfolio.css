@@ -10,42 +10,42 @@
     padding-top: 50px;
     padding-bottom: 30px; }
   #portfolio #port_img1 {
-    background: url("../images/portfolio1.png");
+    background: url("../images/portfolio/portfolio1.png");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
   #portfolio #port_img2 {
-    background: url("../images/portfolio_img2.png");
+    background: url("../images/portfolio/portfolio_img2.png");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
   #portfolio #port_img3 {
-    background: url("../images/portfolio_img3.png");
+    background: url("../images/portfolio/portfolio_img3.png");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
   #portfolio #port_img4 {
-    background: url("../images/portfolio_img4.png");
+    background: url("../images/portfolio/portfolio_img4.png");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
   #portfolio #port_img5 {
-    background: url("../images/portfolio_img5.png");
+    background: url("../images/portfolio/portfolio_img5.png");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
   #portfolio #port_img6 {
-    background: url("../images/portfolio_img6.png");
+    background: url("../images/portfolio/portfolio_img6.png");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
   #portfolio #port_img7 {
-    background: url("../images/portfolio_img7.jpg");
+    background: url("../images/portfolio/portfolio_img7.jpg");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
   #portfolio #port_img8 {
-    background: url("../images/portfolio_img8.png");
+    background: url("../images/portfolio/portfolio_img8.png");
     width: 25vw;
     height: 18vw;
     background-size: cover; }
