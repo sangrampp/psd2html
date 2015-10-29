@@ -2,7 +2,7 @@
   position: relative; }
 
 .carousel #img1 {
-  background: url("../images/splash.png");
+  background: url("../images/splash.jpg");
   min-width: 100%;
   height: 100vh;
   background-size: cover; }
