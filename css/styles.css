@@ -111,6 +111,19 @@ body {
   width: 100%;
   text-align: center;
   padding-top: 50px; }
+  #portfolio .symbol {
+    width: 20%;
+    margin: auto;
+    padding-bottom: 20px; }
+    #portfolio .symbol hr {
+      height: 5px;
+      color: #F2E8D3;
+      background-color: #F2E8D3;
+      border: none; }
+    #portfolio .symbol .line {
+      width: 35%;
+      display: inline-block;
+      margin: 0; }
   #portfolio h3 {
     color: #6F9CC7; }
   #portfolio .container-fluid {
@@ -194,6 +207,19 @@ body {
   padding-top: 30px;
   padding-bottom: 50px;
   position: relative; }
+  #testimonials .symbol {
+    width: 20%;
+    margin: auto;
+    padding-bottom: 20px; }
+    #testimonials .symbol hr {
+      height: 5px;
+      color: #F2E8D3;
+      background-color: #F2E8D3;
+      border: none; }
+    #testimonials .symbol .line {
+      width: 35%;
+      display: inline-block;
+      margin: 0; }
   #testimonials h3 {
     color: #6F9CC7; }
   #testimonials .user-testimonial {

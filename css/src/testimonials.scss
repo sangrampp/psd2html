@@ -5,6 +5,27 @@
 	padding-bottom: 50px;
 	position: relative;
 
+	.symbol{
+		width: 20%;
+		margin: auto;
+		padding-bottom: 20px;
+
+		hr {
+			height: 5px;
+			color: #F2E8D3;
+			background-color: #F2E8D3;
+			border: none;
+			}
+
+		.line{
+			width: 35%;
+			display: inline-block;	
+			margin: 0;
+		}
+		
+
+	}
+
 	h3{
 		color: $blue-bg-color;
 	}
