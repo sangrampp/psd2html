@@ -7,6 +7,18 @@ footer{
 	.cnt_images{
 	display: inline-block;
 	padding: 5px;
-	background-color: grey;
+	background-color: $footer-logo-bg;
+	width: 30px;
+    text-align: center;
+    border-radius: 2px;
+	}
+
+	.cnt_images_twitter{
+	display: inline-block;
+	padding: 5px;
+	background-color: $twitter-logo-bg;
+	width: 30px;
+    text-align: center;
+    border-radius: 2px;
 	}
 }

@@ -10,5 +10,10 @@
 
 .navbar-default{
 	background: transparent;
-	border:transparent;
+	border:transparent;	
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: $nav-text-color;
+	font-weight: 400;
 }

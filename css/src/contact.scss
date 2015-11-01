@@ -3,4 +3,17 @@
 	background-color: #273943;
 	color: white;
 	position: relative;
+
+	.email-field{
+		background: $footer-email-field-bg;
+		border: 1px solid $footer-email-field-bg;
+		width: 150px;
+		border-radius: 5px 0 0 5px;
+	}
+
+	.email-submit{
+		background: $cnt-submit-btn-bg;
+		border: 1px solid $cnt-submit-btn-bg;
+		border-radius: 0 5px 5px 0;		
+	}
 }

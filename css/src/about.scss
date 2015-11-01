@@ -27,6 +27,7 @@
 	margin-left: 10%;
 	padding-top: 20%;
 	color: white;
+	text-shadow: 0px 0px 3px $white-text-shadow;
 	}
 
 	.abt-content .btn-default{
@@ -34,6 +35,7 @@
     background-color: #E7AD49;
 	margin-top: 100px;
 	color: white;	
+	text-shadow: 0px 0px 3px $white-text-shadow;
 	}
 
 	.col-abt {
@@ -43,5 +45,6 @@
 	#abt-write h2{
 	margin: 0;
 	margin-bottom: 20px;
+	text-shadow: 0px 0px 3px $white-text-shadow;
 	}
 }

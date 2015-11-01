@@ -5,6 +5,9 @@
 	padding-bottom: 50px;
 	position: relative;
 
+	.triangle-isosceles{
+		text-shadow: 0px 0px 1px $black-text-shadow;
+	}
 	.symbol{
 		width: 20%;
 		margin: auto;
@@ -28,9 +31,11 @@
 
 	h3{
 		color: $blue-bg-color;
+		text-shadow: 0px 0px 3px $blue-bg-color;
 	}
 
 	.user-testimonial{
-	text-align: left;
+		text-align: left;
+		text-shadow: 0px 0px 1px $black-text-shadow;
 	}
 }
