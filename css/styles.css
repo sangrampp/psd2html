@@ -68,7 +68,8 @@ body {
     text-align: center;
     padding-top: 50px;
     color: #7C9ABC;
-    text-shadow: 0px 0px 3px #7C9ABC; }
+    text-shadow: 0px 0px 3px #7C9ABC;
+    text-transform: uppercase; }
   #offerings h3 {
     text-align: center;
     margin: 0;
@@ -116,7 +117,8 @@ body {
   #about #abt-write h2 {
     margin: 0;
     margin-bottom: 20px;
-    text-shadow: 0px 0px 3px #eee; }
+    text-shadow: 0px 0px 3px #eee;
+    text-transform: uppercase; }
 
 #portfolio {
   width: 100%;
@@ -137,7 +139,8 @@ body {
       margin: 0; }
   #portfolio h3 {
     color: #7C9ABC;
-    text-shadow: 0px 0px 3px #7C9ABC; }
+    text-shadow: 0px 0px 3px #7C9ABC;
+    text-transform: uppercase; }
   #portfolio .text-writeup {
     text-shadow: 0px 0px 1px #333; }
   #portfolio .container-fluid {
@@ -238,7 +241,8 @@ body {
       margin: 0; }
   #testimonials h3 {
     color: #7C9ABC;
-    text-shadow: 0px 0px 3px #7C9ABC; }
+    text-shadow: 0px 0px 3px #7C9ABC;
+    text-transform: uppercase; }
   #testimonials .user-testimonial {
     text-align: left;
     text-shadow: 0px 0px 1px #333; }
@@ -248,6 +252,8 @@ body {
   background-color: #273943;
   color: white;
   position: relative; }
+  #contact .brand-name {
+    font-family: "Lobster", sans-serif; }
   #contact .email-field {
     background: #172228;
     border: 1px solid #172228;

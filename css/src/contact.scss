@@ -4,6 +4,10 @@
 	color: white;
 	position: relative;
 
+	.brand-name{
+		font-family: "Lobster", sans-serif;
+	}
+
 	.email-field{
 		background: $footer-email-field-bg;
 		border: 1px solid $footer-email-field-bg;
